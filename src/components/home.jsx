@@ -10,7 +10,7 @@ const Home = () => {
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>
                     I'm a Developer
                 </h2>
-                <p className='text-gray-500 py-4 max-w-md'>
+                <p className='text-gray-400 py-4 max-w-md'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Ex, maiores fuga magnam voluptatum eaque nesciunt quas fugiat pariatur perferendis dolorum 
                     quia ullam nulla nostrum laboriosam ratione odio quis maxime unde.

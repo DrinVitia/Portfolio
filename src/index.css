@@ -10,3 +10,34 @@
         font-family: 'Raleway', sans-serif;
     }
 }
+
+li {
+    background-color: transparent !important;
+}
+.bg-black { 
+    background-color:rgba(0,0,0,0.5);
+    margin-right: 0;
+    padding-right: 0px;
+}
+
+.bg-black li {
+/*     background-color:rgba(0,0,0,0.5) !important; */
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.bg-black li:hover {
+/*     text-decoration: underline; */
+    border-bottom: 3px solid #fff;
+}
+.ml-2 {
+    padding-top: 10px;
+}
+.px-4.text-gray-500 {
+    color: white;
+}
+
+
+.py-6 {
+    color: white;
+}
