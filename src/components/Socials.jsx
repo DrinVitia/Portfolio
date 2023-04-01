@@ -42,7 +42,7 @@ const Socials = () => {
                     CV <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "/CV-DrinVitia.doc",
+            href: "/CV-DrinVitia.pdf",
             
             download: true,
         },
