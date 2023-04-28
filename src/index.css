@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html{
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+/* ::-webkit-scrollbar {
+  width: 15px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(32, 62, 92);
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+} */
+
+li {
+    background-color: transparent !important;
+}
+.rounded {
+    border-radius: 30px;
+}
+.bg-black { 
+    background-color:rgba(0,0,0,0.5);
+    margin-right: 0;
+    padding-right: 0px;
+}
+
+.bg-black li {
+/*     background-color:rgba(0,0,0,0.5) !important; */
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.bg-black li:hover {
+/*     text-decoration: underline; */
+    border-bottom: 2px solid #fff;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    /* border-radius: 0.5px; */
+    /* transform: scaleY(0.3);
+    transform-origin: center bottom; */
+}
+.ml-2 {
+    padding-top: 10px;
+}
+.px-4.text-gray-500 {
+    color: white;
+}
+
+
+/* .py-6 {
+    color: white;
+} */
