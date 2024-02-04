@@ -1,5 +1,5 @@
 import React from 'react';
-import Drin from '../assets/Drin.png';
+import Drin from '../assets/christofa.jpg';
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md"
 
 const Home = () => {
